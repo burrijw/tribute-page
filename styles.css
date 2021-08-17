@@ -1,0 +1,137 @@
+/* Mini Reset  */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* My styles */
+
+body {
+  font-family: "Andada Pro", serif;
+  font-weight: 400;
+  background-color: #161e1e;
+  position: relative;
+  color: white;
+}
+
+button {
+  font-family: "Andada Pro", serif;
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  padding: 1rem 1.5rem;
+  background-color: #464646;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  border: none;
+}
+
+button > a {
+  text-decoration: none;
+  color: white;
+  margin-right: 0.5rem;
+}
+
+button > svg {
+  padding: 0;
+  margin: 0;
+  height: 1rem;
+  width: 1rem;
+
+  /* padding-left: 1rem; */
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: white;
+  overscroll-behavior: none;
+  max-width: 960px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  margin: 3rem 0 2rem 0;
+  color: white;
+  text-align: center;
+}
+
+.img-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1rem 0 1rem;
+  max-width: 700px;
+}
+
+img {
+  border-radius: 16px;
+  margin: 0 1rem 0 1rem;
+  text-align: center;
+}
+
+#img-caption {
+  color: darkgray;
+  font-size: 0.9rem;
+  margin: 1rem 0 1rem 0;
+}
+
+#tribute-info {
+  margin-top: 2rem;
+  max-width: 700px;
+  margin: 0 2rem#101010;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+article > p {
+  margin-top: 2rem;
+  line-height: 1.5;
+}
+
+footer {
+  text-align: center;
+  padding: 4rem 0;
+  background: #464646;
+  margin-top: 2rem;
+}
